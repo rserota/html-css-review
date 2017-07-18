@@ -7,3 +7,6 @@ github.com: just a website that lets you upload git repositories.
 3 zones: work tree (your actual files), staging area (files to be committed), and commit history (all previous commits)
 
 initialize empty repo: git init
+add all files to staging area: git add -A
+view status of the repo: git status
+ 
