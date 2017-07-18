@@ -9,4 +9,8 @@ github.com: just a website that lets you upload git repositories.
 initialize empty repo: git init
 add all files to staging area: git add -A
 view status of the repo: git status
- 
+
+normal workflow: do work, git add -A, git commit -m 'i did work'
+
+
+less: simple commandline program to read text files. use arrow keys to navigate, q, to quit. 
