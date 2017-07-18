@@ -1,0 +1,39 @@
+h1.label {
+    font-size: 32px;
+    color: peachpuff;
+    margin: 10px;
+    padding: 5px;
+}
+
+span.label {
+    font-size: 16px;
+}
+
+.label {
+    font-size: 18px;
+    color: maroon;    
+}
+
+
+/* a space indicates descendants.*/
+form div {
+    border: 2px dashed blue;
+}
+
+form {
+    /*percentages in CSS are relative. in this case, relative to the container*/
+    height: 60%;
+    width: 60%;
+    background-color: burlywood;
+    border: 3px inset orangered;
+    border-radius: 10px;
+}
+
+/* this selector is almost impossible to overwrite. don't write such specific selectors!*/
+#main #content article.main-content p #theparagraph {
+    color: red !important;
+}
+
+/* specificity: the selector with the most IDs is the most specific*/
+/* Same number of IDs? most classes is most specific. */
+/* same number of IDs and classes? most native elements is most specific*/
