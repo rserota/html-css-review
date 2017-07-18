@@ -12,5 +12,10 @@ view status of the repo: git status
 
 normal workflow: do work, git add -A, git commit -m 'i did work'
 
+go to github.com. click the '+' in the top right. click 'create new repository'.
+
+copy a repo from github that you do not yet have locally: git clone <repo url>
+connect a local repo to a remote copy of that repo: git remote add <remote name> <remote url>
+
 
 less: simple commandline program to read text files. use arrow keys to navigate, q, to quit. 
